@@ -8,6 +8,11 @@ Globals:
         bucketName: testuser-constant
         constantFileName: constant.json
 Resources:
+  ApiGateway:
+    Type: 'AWS::Serverless::Api'
+    Properties:
+      StageName: Developement
+      DefinitionUri: ./deliforceserver-favascr47.yml
   DeliforcebackgroundjobMethod:
      Type: AWS::Serverless::Function
      Properties:
