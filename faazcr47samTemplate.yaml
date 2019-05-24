@@ -20,7 +20,7 @@ Resources:
        Timeout: 300
        Handler: index.handler
        Runtime: nodejs8.10
-       CodeUri: ./backGroundjob/backGroundjob.zip
+       CodeUri: ./backGroundjob/
        Policies: AWSLambdaFullAccess
        Role: arn:aws:iam::120107595195:role/favas-poc
        
@@ -32,7 +32,7 @@ Resources:
        Timeout: 300
        Handler: index.handler
        Runtime: nodejs8.10
-       CodeUri: ./sms/sms.zip
+       CodeUri: ./sms/
        Policies: AWSLambdaFullAccess
        Role: arn:aws:iam::120107595195:role/favas-poc
        
