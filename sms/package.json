@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.373.0",
-    "moment-timezone": "^0.5.21",
+    "moment-timezone": "^0.5.35",
     "mongoose": "^5.3.15"
   }
 }
